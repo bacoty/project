@@ -1,0 +1,81 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --main-bg-color:#018491;
+    --head-bg-color:rgb(128, 169, 177)
+}
+
+//head
+.head {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: fit-content;
+    background-color: var(--head-bg-color);
+    .container {
+        .row {
+            .kiri {
+                .content {
+                    h2 {
+                        font-weight: bold;
+                        font-size: 45px;
+                        color: blueviolet;
+                        margin-bottom: 20px;
+                    }
+                    p {
+                        font-weight: regular;
+                        font-size: 20px;
+                        color: #fff;
+                    }
+                    .btn-primary {
+                        margin-top: 40px;
+                        padding: 10px 20px;
+                        background-color: white;
+                        color: var(--main-bg-color);
+                        border-color: var(--main-bg-color);
+                        border-radius: 15px;
+                    }
+                    :hover {
+                        border-radius: 15px;
+                        color: aqua;
+                    }
+                }
+            }
+            .kanan {
+                .img-fluid {
+                    width: 500px;
+                    height: 500px;
+                }
+            }
+        }
+    }
+}
+//selesai head
+
+//About Us
+.about-us {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    .row {
+     .kanan {
+        .tengah {
+        h3 {
+            text-align: end;
+            font-weight: 600;
+            font-size: 35px;
+            margin-bottom: 10px;
+            color: var(--main-bg-color);
+        }
+        p {
+            text-align: end;
+        }
+        .btn-primary {
+            background-color: var(--main-bg-color);
+            border-radius: 15px;
+        }
+    }   
+  }
+ }
+}
+//Selesai About Us
